@@ -4,11 +4,10 @@ import mysql from 'mysql2/promise';
  * Connection MYSQL
  */
 const pool = mysql.createPool({
-    host:'ep-mute-sun-39744424.ap-southeast-1.aws.neon.fl0.io',
-    port:5432,
-    user:'fl0user',
-    database:'apipinterest',
-    password:'xgbz3iHFJ6Bj'
+    host:'localhost',
+    user:'root',
+    database:'api_pinterest',
+    password:''
 });
 
 /**
